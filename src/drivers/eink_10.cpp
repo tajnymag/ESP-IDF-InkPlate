@@ -31,8 +31,6 @@ Distributed as-is; no warranty is given.
 #include "esp.hpp"
 #include "nvs_mgr.hpp"
 
-#include <iostream>
-
 const uint8_t EInk10::DEFAULT_WAVEFORM_3BIT[8][9] = {
   {0, 0, 0, 0, 0, 0, 0, 1, 0}, {0, 0, 0, 2, 2, 2, 1, 1, 0},
   {0, 0, 2, 1, 1, 2, 2, 1, 0}, {0, 1, 2, 2, 1, 2, 2, 1, 0},
